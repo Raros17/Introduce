@@ -23,8 +23,10 @@ export default App;
 const Container = styled.section`
   display: flex;
   justify-content: center;
+  background-color: #f5f5f5;
 `
 
 const MainContainer = styled.section`
-  width: 80%;
+  width: 60%;
+  padding-top: 100px;
 `
