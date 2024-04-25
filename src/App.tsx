@@ -1,11 +1,12 @@
 import './style/global-style.css';
+import MyInfo from './components/MyInfo';
+import Intro from './components/Intro';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>페이지</p>
-      </header>
+      <MyInfo/>
+      <Intro/>
     </div>
   );
 }
