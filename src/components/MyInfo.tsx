@@ -4,7 +4,7 @@ function MyInfo() {
   return (
     <>
     <section>
-      <Name>양효정 | <span>Frontend Developer</span></Name>
+      <Name>양효정 | <span className="englishName">Frontend Developer</span></Name>
       <ContactContainer>
         <MyImage src="/image/me.jpg" alt="myself"/>  
         <ContactListContainer>
