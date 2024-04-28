@@ -29,6 +29,7 @@ function Project() {
   `
   const ProjectText = styled.p`
     margin: 10px 0;
+    margin-top: 50px;
     font-size: 18px;
     line-height: 1.3;
     span::after {
@@ -46,6 +47,14 @@ function Project() {
         font-weight: 800;
         color: #777;
     }
+    span {
+    color: #553aff;
+    transition: all 0.2 ease;
+    text-decoration: underline;
+  }
+  span:hover{
+    color: #2c0df8;
+  }
   `
 
   const SkillBox = styled.span`
